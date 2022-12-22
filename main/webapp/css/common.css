@@ -1,0 +1,26 @@
+@charset "UTF-8";
+.form-title {
+	text-align: center;
+}
+.form-label {
+	text-align: right;
+	vertical-align: top;
+}
+table {
+	center;
+	width: 50%;
+}
+
+th{
+	width:200px;
+}
+table.input-table tr td {
+	padding: 10px;
+}
+
+table.input-table > tbody > tr > td:nth-child(1):not(.form-title) {
+	width: 40%;
+}
+table.input-table > tbody > tr > td:nth-child(2) {
+	width: 60%;
+}
